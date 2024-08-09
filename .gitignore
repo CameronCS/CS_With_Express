@@ -1,0 +1,9 @@
+/Server/node_modules
+/Server/package-lock.json
+
+/CS_API_Tests/bin
+/CS_API_Tests/obj
+/CS_API_Tests/.vs
+
+/Api_Class_Library/bin
+/Api_Class_Library/obj

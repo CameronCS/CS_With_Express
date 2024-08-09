@@ -1,0 +1,31 @@
+GET https://localhost:3050/ HTTP/1.1
+###
+
+GET https://localhost:3050/test HTTP/1.1
+
+###
+POST https://localhost:3050/add-user HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Leo De Angelo",
+    "surname": "Mekonnen",
+    "age": "21"
+}
+###
+
+POST https://localhost:3050/get-one HTTP/1.1
+Content-Type: application/json
+
+{
+    "criteria": "Surname",
+    "search": "Ellemdeen"
+}
+###
+
+POST https://localhost:3050/get-many HTTP/1.1
+Content-Type: application/json
+
+{
+    "age": "21"
+}
